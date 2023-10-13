@@ -16,8 +16,19 @@ export declare function min(arr: number[]): number;
  * 如果是返回true，否则返回false */
 export declare function compareVersion(a: string, b: string): boolean;
 /** 将给定的数组从左边开始删除 n 个元素,不改变原数组 */
+/**
+ *
+ * @param arr  需要操作的数组
+ * @param n   开始指定的索引
+ * @returns
+ */
 export declare function removeLeft(arr: any[], n: number): any[];
 /** 写一个方法，数组去除重复元素 */
+/**
+ *
+ * @param arr   传入数组
+ * @returns
+ */
 export declare function unique(arr: any[]): any[];
 /** 写一个方法，返回唯一的一个UUID */
 export declare function uuid(): string;

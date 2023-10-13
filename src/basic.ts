@@ -73,12 +73,23 @@ export function compareVersion(a: string, b: string): boolean {
 }
 
 /** 将给定的数组从左边开始删除 n 个元素,不改变原数组 */
+/**
+ * 
+ * @param arr  需要操作的数组
+ * @param n   开始指定的索引
+ * @returns 
+ */
 export function removeLeft(arr: any[], n: number): any[] {
   return arr.splice(0, n);
 }
 
 
 /** 写一个方法，数组去除重复元素 */
+/**
+ * 
+ * @param arr   传入数组
+ * @returns 
+ */
 export function unique(arr: any[]): any[] {
   return [...new Set(arr)];
 }
